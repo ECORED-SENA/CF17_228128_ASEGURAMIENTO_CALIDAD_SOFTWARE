@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Métricas de calidad de servicios',
+    descripcionCurso:
+      'En este componente formativo se determinará la importancia que tienen las métricas de calidad del <em>software</em> como herramienta fundamental con miras a cumplir los requerimientos implícitos y explícitos de los clientes, y que el producto entregado satisfaga las expectativas para la cual fue desarrollado, cumpliendo con las características puntuales para que las pruebas arrojen su resultado.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,71 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Networking</em> y servicios de infraestructura',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Modelo de referencia OSI',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'IPv4 e IPv6',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alta disponibilidad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Métricas de niveles de servicio',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Clústeres',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Computación en la nube',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Continuidad del negocio',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos de pruebas de servicio',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Gestión del proceso de pruebas',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Normas y estándares',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Herramientas de pruebas',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +150,59 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'IPv4 e IPv6',
+      referencia:
+        'Mastering IT. (2020). <em>Un resumen completo del modelo #TCPIP (Todas sus capas en menos de 7 minutos)</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/1pB2kan_AFk',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Capa',
+      significado:
+        'capa compleja que permite conectividad y elige una ruta entre dos sistemas de hosts que pueden estar ubicados en redes geográficamente distintas (Todo de Redes. 2021). ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Interoperabilidad',
+      significado:
+        'capacidad de comunicación entre distintos sistemas con distintos datos en distintos formatos de modo que la información pueda ser compartida, accesible desde distintos entornos y comprendida por cualquiera de ellos (Ecityclic, 2019). ',
+    },
+    {
+      termino: '<em>Performance testing</em>',
+      significado:
+        'reúnen todas las pruebas que verifican la velocidad, la solidez, la confiabilidad y el tamaño correcto de una aplicación. Examina varios indicadores, como el navegador, los tiempos de respuesta de la página y la red, el tiempo de procesamiento de consultas del servidor, la cantidad de usuarios simultáneos aceptables diseñados, el consumo de memoria de la CPU y la cantidad/tipo de errores que se pueden encontrar al usar una aplicación.',
+    },
+    {
+      termino: 'Red de datos',
+      significado:
+        'infraestructuras o redes de comunicación que se han diseñado específicamente para la transmisión de información mediante el intercambio de datos. Las redes de datos se diseñan y construyen en arquitecturas que pretenden servir a sus objetivos de uso. Las redes de datos, generalmente, están basadas en la Comunicación de paquetes y se clasifican de acuerdo con su tamaño, la distancia que cubre y su arquitectura física (EcuRed, 2021). ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arciniegas, A. (2018). <em>Normas y estándares de calidad para el desarrollo de software</em>.',
+      link: 'http://fcaenlinea.unam.mx/anexos/1728/Unidad_2/u2_act2_1.pdf',
+    },
+    {
+      referencia:
+        'Cisco. (2023). <em>Configuración de direcciones IP y subredes únicas para nuevos usuarios</em>.',
+      link:
+        'https://www.cisco.com/c/es_mx/support/docs/ip/routing-information-protocol-rip/13788-3.html',
+    },
+    {
+      referencia:
+        'Gupta. A. (2021). <em>¿Qué son MTTR, MTBF, MTTF y MTTA? Motadata</em>.',
+      link: 'https://www.motadata.com/es/blog/incident-management-metrics',
+    },
+    {
+      referencia: 'IBM. (s.f.). <em>¿Qué es una prueba de software?</em>',
+      link: 'https://www.ibm.com/ar-es/topics/software-testing',
+    },
+    {
+      referencia: 'Icot. (2021). Infraestructura IT',
+      link: 'https://www.icot.es/infraestructura-it/',
     },
   ],
   creditos: [
@@ -135,15 +210,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Maria Camila Garcia Santamaria',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -151,10 +226,22 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto temático',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Cauca - Centro de teleinformática y producción industrial',
+        },
+        {
+          nombre: 'Zulema Yidney León Escobar',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Cauca - Centro de teleinformática y producción industrial',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -162,28 +249,57 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Santander - Centro industrial del diseño y la manufactura',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Diseño web y Producción Audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Santander - Centro industrial del diseño y la manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseño web y Producción Audiovisual',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Regional Santander - Centro industrial del diseño y la manufactura',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Diseño web y Producción Audiovisual',
+          centro:
+            'Regional Santander - Centro industrial del diseño y la manufactura',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Diseño web y Producción Audiovisual',
+          centro:
+            'Regional Santander - Centro industrial del diseño y la manufactura',
+        },
+        {
+          nombre: 'Wilson Andres Arenales Cáceres',
+          cargo: 'Diseño web y Producción Audiovisual',
+          centro:
+            'Regional Santander - Centro industrial del diseño y la manufactura',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Desarrollo Front-End',
+          centro:
+            'Regional Santander - Centro industrial del diseño y la manufactura',
+        },
+        {
+          nombre: 'Rafael Augusto Mantilla',
+          cargo: 'Revisor de contenidos',
+          centro:
+            'Regional Santander - Centro industrial del diseño y la manufactura',
         },
       ],
     },
@@ -191,29 +307,10 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Validación de recursos',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
       ],
     },
   ],
