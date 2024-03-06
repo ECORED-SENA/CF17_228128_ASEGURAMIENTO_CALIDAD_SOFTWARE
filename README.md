@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF17_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/](https://ecored-sena.github.io/CF17_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/)
 
 #
 
