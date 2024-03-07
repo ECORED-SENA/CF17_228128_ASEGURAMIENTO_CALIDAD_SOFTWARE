@@ -25,7 +25,7 @@
 
       .row.mt-4
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-          figure.m-auto.col-6.col-md-6.col-lg-12
+          figure.m-auto.col-7.col-md-6.col-lg-12
             img(src="@/assets/curso/tema1/4.png")
         .col-lg-8(data-aos="fade-left")
           .p-4(style="background-color:#BAE9D9;border-radius:12px;")
@@ -56,7 +56,7 @@
             h4(style="color:#12263F;") Seguridad
             p(style="color:#12263F;") La información contenida en dispositivos conectados a la red, hacen parte importante en los activos de una empresa, de tal manera que se convierten en lo más preciado, porque contienen información crucial de la actividad económica y de procesos clave para el desempeño. Asimismo, se adiciona la información personal y de los proveedores. La seguridad de la información se realiza con dispositivos #[em(style="color:#12263F;") hardware] o #[em(style="color:#12263F;") software] que la protegen de cualquier ataque.
       .col-lg-3(data-aos="fade-left")
-        figure.m-auto.col-6.col-md-6.col-lg-12
+        figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/6.svg")
     
     Separador
@@ -155,7 +155,7 @@
                 i.far.fa-file-code(style="color:#1682FB;")
                 div MIME
       .col-lg-5(data-aos="fade-left")
-        figure.m-auto.col-6.col-md-6.col-lg-12
+        figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/17.png")
     
     p.mt-4(data-aos="fade-right") Por su parte, la capa de aplicación, se encarga de permitir a las aplicaciones de los usuarios, el acceso a las bondades de las otras capas.
@@ -200,14 +200,14 @@
         .ps-4.pe-4.m-auto.mt-3(style="max-width:fit-content;background-color:#3EE2A8;border-radius:5px;")
           p.fw-bold.mb-0 192.168.0.99 = 11000000.10101000.00000000.1100011.
       .col-lg-6(data-aos="fade-left" style="place-self:center;")
-        figure.m-auto.col-6.col-md-6.col-lg-12
+        figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/19.png")
     
     p.mt-4(data-aos="fade-right") La transición al nuevo protocolo no debería afectar en nada el funcionamiento, gracias a su compatibilidad, porque está diseñado para solucionar múltiples problemas presentados en la versión 4, por ejemplo, la carencia de direcciones en el mercado mundial y el limitado direccionamiento requerido por los dispositivos. El protocolo versión 6 permite la entrada a nuevas redes de alto desempeño como ATM, #[em Gigabit Ethernet], etc.
 
     .row.mt-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        figure.m-auto.col-6.col-md-6.col-lg-12
+        figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/20.png")
       .col-lg-7(data-aos="fade-left" style="place-self:center;")
         p Actualmente, hay millones de computadores y otros dispositivos conectados al Internet, por lo que las direcciones previstas por las compañías ISP han escaseado, teniendo en cuenta que hace algunos años se liberó el último paquete de direcciones con lo que se dio fin a las conjugaciones de las mismas. Por esta razón se considera que el IPv4 ya cumplió un ciclo de vida de más de 30 años.
@@ -410,7 +410,7 @@
           figure.mt-4(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema1/32.svg")
         .col-lg-5(data-aos="fade-left" style="place-self:end;")
-          figure.m-auto.col-6.col-md-5.col-lg-12
+          figure.m-auto.col-7.col-md-5.col-lg-12
             img(src="@/assets/curso/tema1/33.png")
 
 
