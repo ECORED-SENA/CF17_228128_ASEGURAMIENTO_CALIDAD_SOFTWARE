@@ -8,18 +8,22 @@
       h1 Tipos de pruebas de servicio
     
     .row
-      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         p Las pruebas de #[em software] son importantes en el ciclo de vida y en el desarrollo del mismo #[em software]; generan tranquilidad al equipo desarrollador por un trabajo confiable y, por supuesto, al usuario final que es quien utilizará el producto; es necesario asegurar la funcionalidad, el rendimiento y la experiencia del usuario. En este sentido, las pruebas, sean manuales o automatizadas, tienen el objetivo de garantizar la calidad de un producto antes de salir al mercado, por lo que se expone a diversos test para evitar problemas y ahorrar dinero a la empresa, previniendo posibles inconvenientes con sus clientes, porque si los problemas trascienden al entorno de producción, con seguridad su solución resultará más costosa.
         .p-4.mt-4(style="background-color:#E1F6EF;")
           i.fas.fa-quote-right(style="color:#3EE2A8;font-size:40px;")
           p.fw-bold.mb-0.mt-2.ps-2.ps-md-3 Según IBM (s.f.), la prueba de #[em software] es el proceso de evaluación y verificación de un producto o aplicación de #[em software] para saber si hace lo que se supone que debe hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento (Párr.1).
           .text-end
             div(style="width:30px;height:30px;background-color:#3EE2A8;display:inline-block;")
-        p.mt-4 Existen dos tipos de pruebas: funcionales y no funcionales; dentro de las funcionales se podría decir que existen unas subpruebas como las unitarias, de componentes, de humo, integración cordura y aceptación. De otra parte, dentro de las no funcionales se encuentran las pruebas de carga, de estrés, de volumen, de configuración, de usabilidad, de seguridad, de resistencia, de escalabilidad, de recuperación y de mantenibilidad. Cada prueba de #[em software] expone la aplicación para examinarla a fondo y tomar decisiones oportunas en caso que se detecte un error desde el código hasta la experiencia del usuario. 
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema3/1.png")
-    
+    .row.mt-4
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-8.col-md-7.col-lg-12
+          img(src="@/assets/curso/tema3/19.svg")
+      .col-lg-9(data-aos="fade-left" style="place-self:center;")
+        p.mb-0 Existen dos tipos de pruebas: funcionales y no funcionales; dentro de las funcionales se podría decir que existen unas subpruebas como las unitarias, de componentes, de humo, integración cordura y aceptación. De otra parte, dentro de las no funcionales se encuentran las pruebas de carga, de estrés, de volumen, de configuración, de usabilidad, de seguridad, de resistencia, de escalabilidad, de recuperación y de mantenibilidad. Cada prueba de #[em software] expone la aplicación para examinarla a fondo y tomar decisiones oportunas en caso que se detecte un error desde el código hasta la experiencia del usuario. 
     p.mt-4(data-aos="fade-right") A continuación, se tomará la prueba Performance que corresponde a la prueba de rendimiento del navegador Google Chrome. Esta herramienta, muy útil para los desarrolladores de #[em software], y se encuentra incorporada dentro de los navegadores Chrome y Mozilla.
 
     .cont_3_1.mt-4.pt-4
@@ -72,70 +76,36 @@
         AcordionA.acordion2(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="¿Cómo calcular el MTTR?")
             p MTTR es una #[strong métrica de gestión de incidentes] que los equipos utilizan para estar al día con las reparaciones, se debe procurar mantener el número de MTTR lo más bajo posible, optimizando la eficiencia de los equipos que ejecutan los procesos de reparación. 
-            .row.m-auto(style="max-width:fit-content;")
-              .col-auto.pe-0(style="place-self:center;")
-                p.mb-0 MTTR =
-              .col.text-center(style="place-self:center;")
-                p.mb-0 tiempo total dedicado a las reparaciones durante un período determinado
-                hr.m-0(style="border-color:#12263F;")
-                p.mb-0 número de reparaciones
+            figure.m-auto.col-md-10.col-lg-10
+              img(src="@/assets/curso/tema3/20.svg" alt="MTRR es igual al tiempo total dedicaco a las reparaciones durante un período determinado, dividido el número de reparaciones.")
             p.mt-3.mb-0 Veamos el siguiente ejemplo:
             p Consideremos que hubo 6 fallas en un sistema y que el mantenimiento requerido para recuperarlo a la operatividad completa tomó 3 horas, que son 180 minutos. Entonces, el MTTR sería:  MTTR = 180/6 = 30 minutos.
             p.mb-0 #[strong(style="color:#273A89;") Esto es igual a que el MTTR de una organización es de 30 minutos, siendo este el tiempo promedio que la organización dedica a cada tiempo de inactividad.]
           .row(titulo="¿Cómo se calcula el MTBF?")
             p.mb-2 Consideremos que un sistema funciona perfectamente durante 13 horas. Durante este período, ocurren 3 fallas que causan un tiempo de inactividad total de 1 hora. Entonces, el MTBF se calcula así:
-            .text-center.m-auto(style="max-width:fit-content;")
-              p.mb-0 (13-1)
-              hr.m-0(style="border-color:#12263F;")
-              p.mb-0 3
+            figure.text-center.m-auto
+              img(src="@/assets/curso/tema3/21.svg" style="max-width:100px;display:inline;")
             p.mt-2 #[strong(style="color:#273A89;") Este resultado nos indica que ocurre una falla en el sistema cada 4 horas, lo que origina que el sistema quede #[em off], con lo cual se generan pérdidas para la empresa. El acompañamiento de esta métrica puede reducir el tiempo de inactividad.]
-            .row.m-auto(style="max-width:fit-content;")
-              .col-auto.pe-0(style="place-self:center;")
-                p.mb-0 MTBF =
-              .col.text-center(style="place-self:center;")
-                p.mb-0 tiempo de actividad operativo total entre fallas 
-                hr.m-0(style="border-color:#12263F;")
-                p.mb-0 número total de fallas
+            figure.m-auto.col-md-10.col-lg-10
+              img(src="@/assets/curso/tema3/22.svg" alt="MTBF es igual al tiempo de actividad operativo total entre fallas, dividido el número totoal de fallas.")
           .row(titulo="¿Cómo se calcula el MTTF?")
             p MTTF es la principal métrica de confiabilidad de un #[em hardware] no reparable, por lo que el propósito es ampliar la vida útil del activo. Un MTTF más corto conlleva a repetidas interrupciones y tiempos de inactividad. 
-            .row.m-auto(style="max-width:fit-content;")
-              .col-auto.pe-0(style="place-self:center;")
-                p.mb-0 MTTF =
-              .col.text-center(style="place-self:center;")
-                p.mb-0 horas totales de funcionamiento 
-                hr.m-0(style="border-color:#12263F;")
-                p.mb-0 número total de fallas
+            figure.m-auto.col-md-10.col-lg-10
+              img(src="@/assets/curso/tema3/23.svg" alt="MTTF es igual a las horas totales de funcionamiento, dividido el número total de fallas.")
             p.mb-0.mt-3 Veamos el siguiente ejemplo:
             p.mb-0 Consideremos que se observan tres sistemas idénticos hasta que todos fallan. El primer sistema duró 14 horas, el segundo 16 horas y el tercero 12 horas. 
             p.mb-2 Entonces, MTTF se calcula así:
-            .row.m-auto(style="max-width:fit-content;")
-              .col-auto.pe-0(style="place-self:center;")
-                p.mb-0 MTTF =
-              .col.text-center(style="place-self:center;")
-                p.mb-0 (14 + 16 + 12)
-                hr.m-0(style="border-color:#12263F;")
-                p.mb-0 3
+            figure.text-center
+              img(src="@/assets/curso/tema3/24.svg" style="max-width:200px;display:inline;")
             p.mt-2 #[strong(style="color:#273A89;") El resultado se interpreta que, en promedio, este tipo de sistema debe ser reemplazado cada 14 horas para evitar tiempos de inactividad más prolongados y daños posteriores.]
           .row(titulo="¿Cómo se calcula el MTTA?")
             p Esta métrica se emplea para monitorear la capacidad de respuesta, es decir, si un equipo se demora en su respuesta y sufre de estrés por alerta, MTTA contribuye a resaltar el problema. 
-            .row.m-auto(style="max-width:fit-content;")
-              .col-auto.pe-0(style="place-self:center;")
-                p.mb-0 MTTA =
-              .col.text-center(style="place-self:center;")
-                p.mb-0 tiempo total transcurrido entre la alerta y el reconocimiento
-                hr.m-0(style="border-color:#12263F;")
-                p.mb-0 número total de incidentes
+            figure.m-auto.col-md-10.col-lg-10
+              img(src="@/assets/curso/tema3/25.svg" alt="MTTA es igual al tiempo total transcurrido entre la alerta y el reconocimiento, dividido el número total de incidentes.")
             p.mb-0.mt-3 Veamos el siguiente ejemplo:
             p.mb-2 Hubo 5 incidentes en una empresa y tomó un total de 30 minutos de tiempo entre la alerta y el reconocimiento de todos los incidentes, entonces, el MTTA se calcula así:
-            .row.m-auto(style="max-width:fit-content;")
-              .col-auto.pe-0(style="place-self:center;")
-                p.mb-0 MTTA =
-              .col.text-center.pe-0(style="place-self:center;")
-                p.mb-0 30
-                hr.m-0(style="border-color:#12263F;")
-                p.mb-0 5
-              .col-auto(style="place-self:center;")
-                p.mb-0 = 6 minutos
+            figure.text-center
+              img(src="@/assets/curso/tema3/26.svg" style="max-width:200px;display:inline;")
             p.mt-2 #[strong(style="color:#273A89;") La respuesta a la métrica MTTA es de 6 minutos, por lo cual la organización debe trabajar en reducir este tiempo para optimizar su proceso de resolución.]
     
     Separador
@@ -473,16 +443,6 @@ export default {
   top: 30%
   bottom: 20%
   background-color: #DCECFE
-.cont_fondo_1, .cont_fondo_1 *
-  position: relative
-.cont_fondo_1:before
-  content: ''
-  position: absolute
-  height: 65%
-  width: 85%
-  right: 0
-  bottom: 0
-  background-color: #BAE9D9
 .tabs-c__content-item
   background-color: #E1F6EF
   padding-top: 25px
