@@ -210,7 +210,7 @@
         figure.m-auto.col-8.col-md-6.col-lg-12
           img(src="@/assets/curso/tema2/10.png")
       .col-lg-8(data-aos="fade-left" )
-        p Todo proyecto de implementación de servicios en la nube debe estar basado y dirigido por un plan estratégico hacia la migración, la cual varía según múltiples factores, teniendo en cuenta que para el abanico de productos TI no existen estrategias definidas.
+        p Todo proyecto de implementación de servicios en la nube debe estar basado y dirigido por un plan estratégico hacia la migración, el cual varía según múltiples factores, teniendo en cuenta que para el abanico de productos TI no existen estrategias definidas.
         .p-4(style="background-color:#E1F6EF;border-radius:7px;")
           .row
             .col-md-auto.col-5.mx-auto.mb-4.mb-md-0(style="place-self:center;" data-aos="fade-right")
@@ -247,7 +247,7 @@
         p En este mundo tan competitivo y de rápida evolución tecnológica, muchas organizaciones dependen de aplicaciones de terceros para sus diferentes dependencias, como contabilidad, informática, mercadotecnia digital y recursos humanos. 
         .p-4(style="background-color:#DCECFE;border-radius:7px;")
           p.mb-0 Es importante que el plan de contingencia y continuidad de negocio, tenga en cuenta que las aplicaciones de terceros pueden disolverse o dejar de prestar servicios esenciales; por lo tanto, las empresas deben tener bajo la manga una lista de alternativas de proveedores adjunto a su plan de contingencia y, en caso de ser necesario, migrar la información para minimizar su dependencia en un solo proveedor.
-        p.mt-4 Las empresas que preparan y organizan su contenido en la nube deben están un paso adelante en caso de desastres. Entonces, #[span.ps-1.pe-1(style="background-color:#273A89;color:#fff;") ¿cómo se podrían preparar para enfrentar una situación extrema?]
+        p.mt-4 Las empresas que preparan y organizan su contenido en la nube deben estar un paso adelante en caso de desastres. Entonces, #[span.ps-1.pe-1(style="background-color:#273A89;color:#fff;") ¿cómo se podrían preparar para enfrentar una situación extrema?]
     
     .p-4.mt-4(style="background-color:#3EE2A8;border-radius:7px;")
       .row

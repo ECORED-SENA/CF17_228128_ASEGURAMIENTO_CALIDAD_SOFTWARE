@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p(data-aos="fade-right") Bienvenido al presente componente formativo, en el que se estudiarán las Métricas de calidad de servicios. A través del siguiente video, podrá identificar la relevancia de este contenido.
+    p(data-aos="fade-right") Bienvenido al presente componente formativo, en el que se estudiarán las métricas de calidad de servicios. A través del siguiente video, podrá identificar la relevancia de este contenido.
 
     figure.mt-4(data-aos="zoom-in-up")
       .video

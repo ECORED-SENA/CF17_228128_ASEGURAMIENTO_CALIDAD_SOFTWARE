@@ -23,8 +23,8 @@
         figure.m-auto.col-8.col-md-7.col-lg-12
           img(src="@/assets/curso/tema3/19.svg")
       .col-lg-9(data-aos="fade-left" style="place-self:center;")
-        p.mb-0 Existen dos tipos de pruebas: funcionales y no funcionales; dentro de las funcionales se podría decir que existen unas subpruebas como las unitarias, de componentes, de humo, integración cordura y aceptación. De otra parte, dentro de las no funcionales se encuentran las pruebas de carga, de estrés, de volumen, de configuración, de usabilidad, de seguridad, de resistencia, de escalabilidad, de recuperación y de mantenibilidad. Cada prueba de #[em software] expone la aplicación para examinarla a fondo y tomar decisiones oportunas en caso que se detecte un error desde el código hasta la experiencia del usuario. 
-    p.mt-4(data-aos="fade-right") A continuación, se tomará la prueba Performance que corresponde a la prueba de rendimiento del navegador Google Chrome. Esta herramienta, muy útil para los desarrolladores de #[em software], y se encuentra incorporada dentro de los navegadores Chrome y Mozilla.
+        p.mb-0 Existen dos tipos de pruebas: funcionales y no funcionales; dentro de las funcionales se podría decir que existen unas subpruebas como las unitarias, de componentes, de humo, integración, cordura y aceptación. De otra parte, dentro de las no funcionales se encuentran las pruebas de carga, de estrés, de volumen, de configuración, de usabilidad, de seguridad, de resistencia, de escalabilidad, de recuperación y de mantenibilidad. Cada prueba de #[em software] expone la aplicación para examinarla a fondo y tomar decisiones oportunas en caso que se detecte un error desde el código hasta la experiencia del usuario. 
+    p.mt-4(data-aos="fade-right") A continuación, se tomará la prueba Performance que corresponde a la prueba de rendimiento del navegador Google Chrome. Esta herramienta es muy útil para los desarrolladores de #[em software], y se encuentra incorporada dentro de los navegadores Chrome y Mozilla.
 
     .cont_3_1.mt-4.pt-4
       .cont_titulo_decorativo(data-aos="fade-right")
@@ -35,7 +35,7 @@
           .col(style="place-self:center;")
             h4.mb-0.pe-4(style="padding-top:7px;") #[em Performance testing]
       
-      p(data-aos="fade-left") La prueba #[em Performance testing] es del tipo no funcional; identifica la velocidad, estabilidad y escalabilidad de una aplicación de #[em software], es por eso que estas pruebas realizan la comprobación del rendimiento de la aplicación en los diferentes puntos de referencia del sistema y de la red, como la utilización de la CPU, la velocidad de carga de la página, el control de tráfico máximo, la utilización de recursos del servidor, etc. En estas pruebas de rendimiento, hay varios tipos de pruebas, como pruebas de carga y pruebas de esfuerzo.
+      p(data-aos="fade-left") La prueba #[em performance testing] es del tipo no funcional; identifica la velocidad, estabilidad y escalabilidad de una aplicación de #[em software], es por eso que estas pruebas realizan la comprobación del rendimiento de la aplicación en los diferentes puntos de referencia del sistema y de la red, como la utilización de la CPU, la velocidad de carga de la página, el control de tráfico máximo, la utilización de recursos del servidor, etc. En estas pruebas de rendimiento, hay varios tipos de pruebas, como pruebas de carga y pruebas de esfuerzo.
 
       .row.mt-4
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
@@ -174,7 +174,7 @@
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema3/9.png")
       .col-lg-7(data-aos="fade-left" )
-        p Para desarrollo basados en la metodología RUP o métodos tradicionales, se recomienda implementar una metodología de pruebas totalmente viable, considerando que estas metodologías están orientadas a la documentación y formalización de todas las actividades realizadas. Si la firma desarrolladora realiza un acompañamiento del proceso bajo los lineamientos basados en metodologías ágiles, se estudiará la conveniencia de iniciar las actividades que tengan que ver con el proceso de pruebas formal.
+        p Para desarrollos basados en la metodología RUP o métodos tradicionales, se recomienda implementar una metodología de pruebas totalmente viable, considerando que estas metodologías están orientadas a la documentación y formalización de todas las actividades realizadas. Si la firma desarrolladora realiza un acompañamiento del proceso bajo los lineamientos basados en metodologías ágiles, se estudiará la conveniencia de iniciar las actividades que tengan que ver con el proceso de pruebas formales.
         p Los procesos de pruebas que se realizan correctamente contienen 5 etapas:
         ol.lista-ol--cuadro.mt-3.ps-3
           li.d-flex
@@ -219,7 +219,7 @@
           .row(titulo="Estrategia de pruebas")
             p Por medio de un análisis de riesgos, se determina en qué funcionalidades del aplicativo se centrará nuestra aplicación; asimismo, en la estrategia de pruebas se indicarán los ciclos que se aplicarán y la intensidad o profundidad a realizar en cada nivel de prueba definido.
           .row(titulo="Criterios de salida")
-            p Las partes involucradas en el proceso, definen los entregables y la profundidad con la que se realizará una prueba, así como a qué funcionalidades se le realizará las pruebas. Los criterios de salida se definen para cada nivel de pruebas; algunos de estos criterios son los siguientes:
+            p Las partes involucradas en el proceso, definen los entregables y la profundidad con la que se realizará una prueba, así como a qué funcionalidades se le realizarán las pruebas. Los criterios de salida se definen para cada nivel de pruebas; algunos de estos criterios son los siguientes:
             ul.lista-ul.ps-4
               li.d-flex
                 i.far.fa-file-code(style="color:#273A89 !important;")
@@ -258,7 +258,7 @@
               li.d-flex
                 i.far.fa-file-code(style="color:#273A89 !important;")
                 div Manuales técnicos.
-            p En el diseño de los  casos se deben tener en cuenta los casos positivos y negativos. En los casos de prueba negativas dejan evaluar el comportamiento ante situaciones atípicas y permite verificar la robustez del sistema.
+            p En el diseño de los casos se deben tener en cuenta los casos positivos y negativos. En los casos de pruebas negativas, dejan evaluar el comportamiento ante situaciones atípicas y permite verificar la robustez del sistema.
           .row(titulo="Implementación y ejecución de pruebas")
             p Cuando se ejecutan las pruebas en el sistema, se debe indicar la creación de datos de prueba para realizar los casos diseñados. Estos se pueden ejecutar de manera manual o automatizada. Cuando se detecte un fallo en el sistema se debe documentar y registrar en una herramienta indicada para ello; una vez el defecto se corrige, se valida nuevamente en el proceso de depuración, para hacer la verificación de la corrección. Así, se necesita hacer un proceso de regresión para verificar que dicha corrección no genere otro tipo de errores.
           .row(titulo="Evaluación de criterios de salida")
@@ -296,7 +296,7 @@
           .col-lg-8.mb-4.mb-lg-0
             p.fw-bold ISO 12207 – Modelos de ciclos de vida del #[em software]
             p.mb-0 Este estándar se concibió para clientes de #[em software], así como para  desarrolladores y proveedores. Indica una serie de procesos desde la recopilación de requisitos hasta la culminación del #[em software].
-            p El estándar comprende 17 procesos lo cuales son agrupados en tres categorías principales:
+            p El estándar comprende 17 procesos los cuales son agrupados en tres categorías principales:
             ul.lista-ul
               li.d-flex
                 i.far.fa-file-code(style="color:#1682FB !important;")

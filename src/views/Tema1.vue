@@ -35,7 +35,7 @@
                   img(src="@/assets/curso/tema1/5.svg")
               .col(style="place-self:center;")
                 p.mb-0 #[em Networking] es un término muy robusto que involucra personas que se encuentran dispersas geográficamente, las cuales realizan actividades en conjunto para llevar a cabo un bien común, por lo que se requiere también de la agrupación de tecnología en #[em hardware] y #[em software] que intervienen en estas interacciones.
-          p.mt-4 Los componentes #[em hardware] que poseen los servicios de infraestructura pueden ser utilizados por muchas empresas para ejecutar sus actividades comerciales y tener una continuidad en el negocio; este tipo de servicios hacen que las empresas no incurran en gastos elevados, adquiriendo tecnología y personal para su mantenimiento o instalación, agilizando así una cantidad considerable de posibilidades de acceso a la información del negocio desde cualquier ubicación geográfica, gracias sus bondades. Este método de trabajo es muy común actualmente, porque uno de los activos de mayor valor para las compañías es la información.
+          p.mt-4 Los componentes #[em hardware] que poseen los servicios de infraestructura pueden ser utilizados por muchas empresas para ejecutar sus actividades comerciales y tener una continuidad en el negocio; este tipo de servicios hacen que las empresas no incurran en gastos elevados, adquiriendo tecnología y personal para su mantenimiento o instalación, agilizando así una cantidad considerable de posibilidades de acceso a la información del negocio desde cualquier ubicación geográfica, gracias a sus bondades. Este método de trabajo es muy común actualmente, porque uno de los activos de mayor valor para las compañías es la información.
     
     p.mt-4(data-aos="fade-right") Los servicios de infraestructura que se ofrecen corresponden al #[em hardware] que una empresa podría adquirir para llevar a cabo sus actividades, pero por la versatilidad que representan estos servicios y la reducción de costo se delega o terceriza a empresas que se encargan de los mantenimientos y actualizaciones, como parte de la actividad de sus negocios. 
     p.mt-4(data-aos="fade-left") Los servicios que se ofrecen en infraestructura se dividen en 4 elementos: 
@@ -51,10 +51,10 @@
             p(style="color:#12263F;") Los servicios de servidores reducen los costos para las empresas que los requieran, debido a que pueden realizar sus actividades comerciales con normal operación, evitando muchos costos en mantenimientos y actualizaciones.
           .tarjeta.color-acento-botones.p-4(titulo="<em>Networking</em>" style="background-color:#E1F6EF;")
             h4(style="color:#12263F;font-style:italic;") Networking
-            p(style="color:#12263F;") Son dispositivos de interconexión que permiten un trabajo seguro por medio de switchs y conmutadores con conexiones seguras y rápidas entre los usuarios.
+            p(style="color:#12263F;") Son dispositivos de interconexión que permiten un trabajo seguro por medio de #[em(style="color:#12263F;") switchs] y conmutadores con conexiones seguras y rápidas entre los usuarios.
           .tarjeta.color-acento-botones.p-4(titulo="Seguridad" style="background-color:#E1F6EF;")
             h4(style="color:#12263F;") Seguridad
-            p(style="color:#12263F;") La información contenida en dispositivos conectados a la red, hacen parte importante en los activos de una empresa, de tal manera que se convierten en lo más preciado, porque contienen información crucial de la actividad económica y de procesos clave para el desempeño. Asimismo, se adiciona la información personal y de los proveedores. La seguridad de la información se realiza con dispositivos #[em(style="color:#12263F;") hardware] o #[em(style="color:#12263F;") software] que la protegen de cualquier ataque.
+            p(style="color:#12263F;") La información contenida en dispositivos conectados a la red, hace parte importante en los activos de una empresa, de tal manera que se convierten en lo más preciado, porque contienen información crucial de la actividad económica y de procesos clave para el desempeño. Asimismo, se adiciona la información personal y de los proveedores. La seguridad de la información se realiza con dispositivos #[em(style="color:#12263F;") hardware] o #[em(style="color:#12263F;") software] que la protegen de cualquier ataque.
       .col-lg-3(data-aos="fade-left")
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/6.svg")
@@ -64,7 +64,7 @@
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_1_1 1.1  Modelo de referencia OSI
     
-    p(data-aos="fade-left") Durante años, este modelo ha sido la base de las redes informáticas y el referente inicial para comprender los medios de transmisión con sus diferentes actores, lo que posibilita una comunicación exitosa entre máquinas y con un producto interpretado por las partes. Este modelo se divide en siete capas, los cuales se presentan en la siguiente figura.
+    p(data-aos="fade-left") Durante años, este modelo ha sido la base de las redes informáticas y el referente inicial para comprender los medios de transmisión con sus diferentes actores, lo que posibilita una comunicación exitosa entre máquinas y con un producto interpretado por las partes. Este modelo se divide en siete capas, las cuales se presentan en la siguiente figura.
 
     .col-xl-7.m-auto.col-lg-11
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
@@ -83,7 +83,7 @@
               .col-4
                 img(src='@/assets/curso/tema1/9.svg')
             h4.text-center.bg-white.m-auto.mt-4(style="padding:2px;color: #273A89 !important;max-width:fit-content;") Capa física
-            p.text-center.mt-3.mb-0 Es la encargada de transmitir todo el flujo de bits sin procesar.
+            p.text-center.mt-3.mb-0 Es la encargada de transmitir todo el flujo de #[em bits] sin procesar.
           .tarjeta.color-acento-botones.p-4.pt-5.pb-5.text-white(style="background-color:#273A89;")
             .row.justify-content-center.mb-3
               .col-4
@@ -138,11 +138,11 @@
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Formateo de datos")
-            p Es el proceso mediante el cual se interpretan dos códigos, por ejemplo el código caracteres decimal codificados en binario (EBCDIC), utilizado para representar los caracteres en la pantalla, y el código americano (ASCII) que tiene la misma función de dar forma a la información para visualizarla o imprimirla.
+            p Es el proceso mediante el cual se interpretan dos códigos, por ejemplo: el código de caracteres decimales codificados en binario (EBCDIC), utilizado para representar los caracteres en la pantalla, y el código americano (ASCII) que tiene la misma función de dar forma a la información para visualizarla o imprimirla.
           .row(titulo="Cifrado de datos")
             p Protección importante de la información durante la transmisión.
           .row(titulo="Compresión de datos")
-            p Por medio de técnicas algorítmicas busca patrones repetidos y los reemplaza por un token que es un patrón de bit mucho más corto.
+            p Por medio de técnicas algorítmicas busca patrones repetidos y los reemplaza por un #[em token] que es un patrón de #[em bit] mucho más corto.
           .row(titulo="Encriptación")
             p Los datos se protegen con el procesos de encriptación.
           .row(titulo="Estructura de datos a transmitir")
@@ -160,7 +160,7 @@
     
     p.mt-4(data-aos="fade-right") Por su parte, la capa de aplicación, se encarga de permitir a las aplicaciones de los usuarios, el acceso a las bondades de las otras capas.
     p(data-aos="fade-left") Los usuarios interactúan directamente con la capa de aplicación; las que hacen este trabajo son las aplicaciones, escondiendo la complejidad del sistema al usuario.
-    p.mt-4(data-aos="fade-right") En esta capa existen algunos protocolos involucrados, que son interesantes nombrar:
+    p.mt-4(data-aos="fade-right") En esta capa, existen algunos protocolos involucrados, que son interesantes nombrar:
 
     .row.mt-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -180,7 +180,7 @@
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_1_2 1.2  IPv4 e IPv6
     
-    p(data-aos="fade-left") Según Cisco, una dirección IP se emplea para identificar a un dispositivo en una red IP. La dirección se compone de 32 bits binarios, que pueden dividirse en una porción correspondiente a la red y otra correspondiente al host, con la ayuda de una máscara de subred (Párr.6).
+    p(data-aos="fade-left") Según Cisco, una dirección IP se emplea para identificar a un dispositivo en una red IP. La dirección se compone de 32 #[em bits] binarios, que pueden dividirse en una porción correspondiente a la red y otra correspondiente al #[em host], con la ayuda de una máscara de subred (Párr.6).
        
     .row.mt-4
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
@@ -189,7 +189,7 @@
         ul.lista-ul.ps-3.mt-3
           li.d-flex
             i.far.fa-file-code(style="color:#1682FB;")
-            div Dirección de 32 bits.
+            div Dirección de 32 #[em bits].
           li.d-flex
             i.far.fa-file-code(style="color:#1682FB;")
             div Direcciones desde la 0.0.0.0 hasta la 255.255.255.255. 
@@ -223,7 +223,7 @@
         .col(style="place-self:center;")
           h4.mb-0.pe-4(style="padding-top:7px;") Direcciones privadas
     
-    p(data-aos="fade-left") Las direcciones IP privadas se encuentran en un esquema local; exactamente se refieren a las direcciones que asigna un router, de manera manual o automática, por medio de un protocolo llamado DHCP y que, en su conjunto hacen una red LAN. Tienen la característica de ser privadas porque son direcciones que no son visibles ante Internet, debido a que permiten la navegación a través de un dispositivo que sí tiene asignada una dirección pública vista en Internet.
+    p(data-aos="fade-left") Las direcciones IP privadas se encuentran en un esquema local; exactamente se refieren a las direcciones que asigna un #[em router], de manera manual o automática, por medio de un protocolo llamado DHCP y que, en su conjunto hacen una red LAN. Tienen la característica de ser privadas porque son direcciones que no son visibles ante Internet, debido a que permiten la navegación a través de un dispositivo que sí tiene asignada una dirección pública vista en Internet.
     p.mt-4(data-aos="fade-right") Estas direcciones están dispuestas en rangos o clases, como se presenta a continuación:
 
     .tarjeta.tarjeta--azul.p-4.p-lg-5.pt-lg-5.cont_slyder_1_1.mt-4(style="border-radius:0px;")
@@ -373,22 +373,22 @@
                     div Aumenta la cantidad de direcciones.
                   li.d-flex.mb-1
                     i.far.fa-file-code(style="color:#1682FB !important;")
-                    div Se utilizarán 128 bits de manera hexadecimal con menor espacio. 
+                    div Se utilizarán 128 #[em bits] de manera hexadecimal con menor espacio. 
                   li.d-flex.mb-1
                     i.far.fa-file-code(style="color:#1682FB !important;")
-                    div Las direcciones se compondrán de 8 secciones cada sección con 16 bits.
+                    div Las direcciones se compondrán de 8 secciones cada sección con 16 #[em bits].
                   li.d-flex.mb-1
                     i.far.fa-file-code(style="color:#1682FB !important;")
                     div Las direcciones que se obtendrán: de 0:0:0:0:0:0:0:0  a  ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff.
                   li.d-flex.mb-1
                     i.far.fa-file-code(style="color:#1682FB !important;")
-                    div Las direcciones de los equipos o host se visualizarán con 128 ceros y unos.
+                    div Las direcciones de los equipos o #[em host] se visualizarán con 128 ceros y unos.
                   li.d-flex.mb-1
                     i.far.fa-file-code(style="color:#1682FB !important;")
-                    div Con el nuevo protocolo IPv6 y los 128 bits se redireccionará un total de: 2128 = 340.282.366.920.938.463.463.374.607.431.768.211.456 hosts.
+                    div Con el nuevo protocolo IPv6 y los 128 #[em bits] se redireccionará un total de: 2128 = 340.282.366.920.938.463.463.374.607.431.768.211.456 #[em hosts].
                   li.d-flex.mb-0
                     i.far.fa-file-code(style="color:#1682FB !important;")
-                    div Con este protocolo se podrán instalar los servidores que se quiera sin limitación debido a su capacidad.
+                    div Con este protocolo se podrán instalar los servidores que se quieran sin limitación debido a su capacidad.
     
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row
