@@ -188,7 +188,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:;")
               span.fw-bold(style="color:initial;") 3
-            div implementación de pruebas.
+            div Implementación de pruebas.
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:;")
               span.fw-bold(style="color:initial;") 4
@@ -215,7 +215,7 @@
           .row(titulo="Alcance de la prueba")
             p Se identifica qué funcionalidades del producto serán probadas durante el transcurso de la prueba. El listado de funcionalidades se realiza con base en el estudio de riesgos realizado previamente, teniendo en cuenta variables como la falla de una funcionalidad o la posible falla de una de estas. Con este análisis se obtiene información adicional, para determinar, además del detallado, la urgencia con la que las funcionalidades deben probarse.
           .row(titulo="Tipos de prueba")
-            p Es fundamental seleccionar los tipos de prueba que se pueden emplear para determinada aplicación, debido a que no es posible utilizar todos los tipos de prueba; por eso es indispensable que el encargado plantee las preguntas necesaria para identificar las pruebas correctas que se deberán implementar. Dentro de estos posibles tipos de pruebas se encuentran las de estrés, de rendimiento, de carga, de usabilidad, de regresión, entre otros.
+            p Es fundamental seleccionar los tipos de prueba que se pueden emplear para determinada aplicación, debido a que no es posible utilizar todos los tipos de prueba; por eso es indispensable que el encargado plantee las preguntas necesarias para identificar las pruebas correctas que se deberán implementar. Dentro de estos posibles tipos de pruebas se encuentran las de estrés, de rendimiento, de carga, de usabilidad, de regresión, entre otros.
           .row(titulo="Estrategia de pruebas")
             p Por medio de un análisis de riesgos, se determina en qué funcionalidades del aplicativo se centrará nuestra aplicación; asimismo, en la estrategia de pruebas se indicarán los ciclos que se aplicarán y la intensidad o profundidad a realizar en cada nivel de prueba definido.
           .row(titulo="Criterios de salida")

@@ -299,7 +299,7 @@
               img(src="@/assets/curso/tema2/17.svg" style="max-width:60px;display:inline;")
           figure
             img(src="@/assets/curso/tema2/21.svg" style="max-width:90px;display:inline;")
-          p.mt-4 La automatización de procesos importantes aseguran la estandarización, consistencia y continuidad para generar una tranquilidad en los usuarios y garantizar el correcto funcionamiento.
+          p.mt-4 La automatización de procesos importantes asegura la estandarización, consistencia y continuidad para generar una tranquilidad en los usuarios y garantizar el correcto funcionamiento.
     
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")

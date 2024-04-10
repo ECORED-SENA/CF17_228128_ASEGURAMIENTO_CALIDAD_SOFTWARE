@@ -71,7 +71,7 @@
         h5 Figura 1.
         span Modelo de referencia OSI
       figure.mt-4(data-aos="zoom-in-up")
-        img(src="@/assets/curso/tema1/7.svg")
+        img(src="@/assets/curso/tema1/7.svg" alt="Imagen que presenta el Modelo OSI, con sus 7 capas: física, enlace de datos, red, transporte, sesión, presentación y aplicación.")
     
     p.mt-5(data-aos="fade-right") De acuerdo con la figura anterior, en el modelo OSI encontramos las siguientes capas:
 
@@ -144,7 +144,7 @@
           .row(titulo="Compresión de datos")
             p Por medio de técnicas algorítmicas busca patrones repetidos y los reemplaza por un #[em token] que es un patrón de #[em bit] mucho más corto.
           .row(titulo="Encriptación")
-            p Los datos se protegen con el procesos de encriptación.
+            p Los datos se protegen con el proceso de encriptación.
           .row(titulo="Estructura de datos a transmitir")
             p.mb-2 Los protocolos presentes en esta capa de presentación son los siguientes:
             ul.lista-ul.ps-3
@@ -408,7 +408,7 @@
             h5 Figura 2.
             span Protocolo TCP/IP
           figure.mt-4(data-aos="zoom-in-up")
-            img(src="@/assets/curso/tema1/32.svg")
+            img(src="@/assets/curso/tema1/32.svg" alt="Imagen que presenta la forma en la que está conformada el protocolo TCP/IP.")
         .col-lg-5(data-aos="fade-left" style="place-self:end;")
           figure.m-auto.col-7.col-md-5.col-lg-12
             img(src="@/assets/curso/tema1/33.png")
