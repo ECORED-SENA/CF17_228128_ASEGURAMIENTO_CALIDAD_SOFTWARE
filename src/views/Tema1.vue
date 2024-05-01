@@ -158,7 +158,7 @@
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/17.png")
     
-    p.mt-4(data-aos="fade-right") Por su parte, la capa de aplicación, se encarga de permitir a las aplicaciones de los usuarios, el acceso a las bondades de las otras capas.
+    p.mt-4(data-aos="fade-right") Por su parte, la capa de aplicación se encarga de permitir a las aplicaciones de los usuarios, el acceso a las bondades de las otras capas.
     p(data-aos="fade-left") Los usuarios interactúan directamente con la capa de aplicación; las que hacen este trabajo son las aplicaciones, escondiendo la complejidad del sistema al usuario.
     p.mt-4(data-aos="fade-right") En esta capa, existen algunos protocolos involucrados, que son interesantes nombrar:
 

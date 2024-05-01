@@ -211,7 +211,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del Ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -260,25 +260,13 @@ export default {
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Pendiente',
-          cargo: 'Intérprete Lenguaje de señas',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Pendiente',
-          cargo: 'Storyboard e Ilustración',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Pendiente',
+          nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Pendiente',
+          nombre: 'Andrés Felipe Guevara Ariza',
           cargo: 'Locución',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',

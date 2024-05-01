@@ -203,7 +203,7 @@
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_2_3 2.3 Computación en la nube
     
-    p(data-aos="fade-left") La migración de información a la nube, es un paso obligado para particulares y empresas que tienen un alto nivel de infraestructura y cuentan con equipos de servidores, aplicaciones, redes, etc. Todo esto implica un largo y, a veces, complejo proceso de migración, que consiste en una serie de pasos para lograr una identificación, planificación, ejecución y evaluación de migración de servicios de TI locales a servicios en la nube. 
+    p(data-aos="fade-left") La migración de información a la nube es un paso obligado para particulares y empresas que tienen un alto nivel de infraestructura y cuentan con equipos de servidores, aplicaciones, redes, etc. Todo esto implica un largo y, a veces, complejo proceso de migración, que consiste en una serie de pasos para lograr una identificación, planificación, ejecución y evaluación de migración de servicios de TI locales a servicios en la nube. 
 
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" )
@@ -234,7 +234,7 @@
                 img(src="@/assets/curso/tema2/12.svg")
             .col-md.col-12(style="place-self:center;")
               p.mb-0 El sector de la salud es muy regulado y una falla en la seguridad cibernética puede significar la afectación para muchas personas. En algunos países una situación similar implica auditorías ante las entidades regulatorias; por ejemplo, en los Estados Unidos se debe notificar al Departamento de Salud y Servicios Humanos inmediatamente.
-        p.mt-4 Por ello, es fundamental que al realizar un plan, se tengan en cuenta las regulaciones pertinentes al sector de la industria en el que se encuentre la organización. Cuando se considera realizar un respaldo de información, se necesita plantearlo a gran escala. Una de las soluciones más importantes para asegurar que la información y los sistemas puedan recuperarse con pérdidas mínimas, es la implementación de múltiples centros de datos ubicados estratégicamente en diferentes regiones, o lo que se impone por estos días, una solución en la nube.
+        p.mt-4 Por ello, es fundamental que, al realizar un plan, se tengan en cuenta las regulaciones pertinentes al sector de la industria en el que se encuentre la organización. Cuando se considera realizar un respaldo de información, se necesita plantearlo a gran escala. Una de las soluciones más importantes para asegurar que la información y los sistemas puedan recuperarse con pérdidas mínimas, es la implementación de múltiples centros de datos ubicados estratégicamente en diferentes regiones, o lo que se impone por estos días, una solución en la nube.
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema2/13.png")
