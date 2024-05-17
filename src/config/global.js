@@ -227,7 +227,7 @@ export default {
       autores: [
         {
           nombre: 'José Luis Bastidas Pérez',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
